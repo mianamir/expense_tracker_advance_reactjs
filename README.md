@@ -1,2 +1,1 @@
-# expense_tracker_advance_reactjs
- Expense tracker advance reactjs
+#  Expense tracker application using advance React.js
