@@ -40,7 +40,7 @@ const App = () => {
     // update the expenses array but this is not the correct way to update the state
     // setExpenses([expense, ...expenses]);
 
-    // use this way
+    // use this way!
     setExpenses( prevExpenses => {
       return [expense, ...prevExpenses];
     });
