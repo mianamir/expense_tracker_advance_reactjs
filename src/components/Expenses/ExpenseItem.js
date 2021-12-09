@@ -9,15 +9,7 @@ const ExpenseItem = (props) => {
 
     // call the react hooks inside the components not in nested functions
     const [title, setTitle] = useState(props.title);
-    // console.log('Test: ExpenseItem evaluated by React!');
-
-
-
-
-    const onClickHandler = () => {
-        setTitle('amir savvy!!');
-        console.log(title);
-    };
+    
 
     return (
        <li>
@@ -27,7 +19,6 @@ const ExpenseItem = (props) => {
             <h2>{title}</h2>
             <div className="expense-item__price">${props.amount}K</div>
         </div>
-        <button onClick={onClickHandler}>Change Title</button>
         </Card>
        </li>
 
