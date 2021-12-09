@@ -7,27 +7,27 @@ import Expenses from "./components/Expenses/Expenses";
 const DUMMY_EXPENSES = [
   {
     id: 'e1',
-    title: 'Python',
+    title: 'Internet device',
     amount: 40.9,
-    date: new Date(2021, 2, 28),
+    date: new Date(2021, 8, 28),
   },
   {
     id: 'e2',
-    title: 'Go',
+    title: 'Home Water',
     amount: 30.9,
     date: new Date(2021, 2, 28),
   },
   {
     id: 'e3',
-    title: 'React',
+    title: 'Online tickets',
     amount: 60.9,
-    date: new Date(2021, 2, 28),
+    date: new Date(2019, 6, 28),
   },
   {
     id: 'e4',
-    title: 'Django',
+    title: 'Shopping',
     amount: 80.9,
-    date: new Date(2021, 2, 28),
+    date: new Date(2019, 2, 28),
   },
 ];
 
